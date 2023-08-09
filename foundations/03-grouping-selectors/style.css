@@ -1,0 +1,17 @@
+.black-button,
+.purple-button
+{
+    font-size: 40px;
+}
+
+.black-button
+{
+    background-color: black;
+    color: ivory;
+}
+
+.purple-button
+{
+    background-color: purple;
+    color: rgb(135, 255, 135)
+}
