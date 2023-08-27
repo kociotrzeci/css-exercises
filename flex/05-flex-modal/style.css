@@ -13,13 +13,30 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  
 }
+
+.mainContainer{
+  display:flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.topContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 10px;
+  padding: 10px;
 }
 
 .icon {
@@ -31,6 +48,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex: 0 0 auto;
   align-items: center;
   justify-content: center;
 }
@@ -49,7 +67,19 @@ body {
   border: 1px solid #eee;
   padding: 0;
 }
+.header{
+  font-weight: 700;
+  font-size: 18px;
+  background-color: aqua;
+}
 
+.text{
+  padding: 0px;
+}
+
+.buttonContainer{
+  margin: 5px;
+}
 button {
   cursor: pointer;
   padding: 8px 16px;
